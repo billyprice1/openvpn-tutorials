@@ -55,12 +55,14 @@ Then going into root using the command <code>sudo su</code> is probably the leas
   * .key files should be kept secret
   * .csr files don't really matter, don't move them
   * .crt files can be submitted over plaintext
+
 **First time setup commands**
   - edit the vars file to configure keys (set key size to 2048)
   - source vars
   - ./build-ca
   - ./build-key-server server
   - ./build-dh
+
 **For each client**
 
 *This name should be descriptive of the device so that later it makes it easier for revocation in case it gets stolen or lost.*
